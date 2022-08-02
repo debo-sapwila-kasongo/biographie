@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
+*
+{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+body
+{
+    margin:0;
+}
+.topbar
+{
+    color: #FAFAFF;
+    background-color: #3F8EFC;
+    position: fixed;
+    height: 4rem;
+    width: 100%;
+
+}
+.name
+{
+    width: 100%;
+    text-align: center;
+}
+.link
+{
+    display: none;
+}
+.link-icone
+{
+    position: fixed;
+    bottom: 30px;
+    width: 100%;
+    border-radius: 30px;
+    padding: 2px 15px;
+    text-align: center;
+}
+.nav_icone
+{
+    width: 300px;
+    padding: 0;
+    margin:0 auto;
+}
+.link-icone img
+{
+    height: 40px;
+    background-color: #3F8EFC;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #000;
+}
+.home
+{
+    height: 100vh;
+    background-color: #3F8EFC;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.home h1, h1 span
+{
+    font-size: 6rem;
+    color: #fff;
+    font-weight: bold;
+}
+.first_part
+{
+    text-shadow: 4px 4px 10px #3B28CC;
+    line-height: .7;
+}
+.home img
+{
+    height: 270px;
+    border-radius: 30px;
+    align-self: flex-end;
+}
+.about
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin-top: 35px;
+}
+.about>h3
+{
+    font-size: 2rem;
+}
+.contenair-about
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 3px;
+}
+.contenair-about img
+{
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+    margin: 40px;
+}
+.about-me
+{
+    color: #697477;
+    line-height: 1.6;
+}
+.about-me h2
+{
+    font-size: 1.3rem;
+    color: #3F8EFC;
+}
+.competance
+{
+    text-align: center;
+}
+.article img
+{
+    width: 350px;
+}
+.competance>h3
+{
+    font-size: 2rem;
+}
+.competance-contenair
+{
+    color: #3F8EFC;
+}
+@media only screen and (min-width:850px)
+{
+    .link-icone
+    {
+        display: none;
+    }
+    .topbar a
+    {
+        color: #FAFAFF;
+        text-decoration: none;
+        padding: 15px;
+        display: inline;
+    }
+    .link
+    {
+        display: inline;
+        width: 50%;
+    }
+    .link a:hover,
+    .link .active
+    {
+        text-decoration:underline;
+    }
+    .topbar
+    {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;  
+    }
+    .name
+    {
+        text-align: left;
+        margin-left: 10px;
+    }
+    .home
+    {
+        height: 100vh;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+    }
+    .home h1, h1 span
+    {
+        font-size: 10.5rem;
+        color: #fff;
+        font-weight: bold;
+    }
+    .home img
+    {
+        height: 470px;
+    }
+    .about-me
+    {
+    width: 465px;
+    color: #697477;
+    line-height: 1.6;
+    }
+    .competance-contenair
+    {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }    
+}
